@@ -7,21 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1CE859219D9A3F00A317E3 /* Pods_Бомонка.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC156FF219216D8001B746A /* Pods_Бомонка.framework */; };
 		5B37593B218F3E5000301421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B37593A218F3E5000301421 /* AppDelegate.swift */; };
-		5B37593D218F3E5000301421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B37593C218F3E5000301421 /* ViewController.swift */; };
 		5B375940218F3E5000301421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B37593E218F3E5000301421 /* Main.storyboard */; };
 		5B375942218F3E5000301421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B375941218F3E5000301421 /* Assets.xcassets */; };
 		5B375945218F3E5000301421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B375943218F3E5000301421 /* LaunchScreen.storyboard */; };
+		5B3D57F0219C635100F74C06 /* MainSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D57EF219C635100F74C06 /* MainSettings.swift */; };
+		5B76DA2D2196D560000D71C9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B76DA2C2196D560000D71C9 /* SettingsViewController.swift */; };
+		5B90A1DA2196B65A004C51F4 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B90A1D92196B65A004C51F4 /* SF-Pro-Display-Bold.otf */; };
+		5B90A1DC2196B671004C51F4 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B90A1DB2196B671004C51F4 /* SF-Pro-Display-Light.otf */; };
+		5B90A1DE2196B67E004C51F4 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5B90A1DD2196B67E004C51F4 /* SF-Pro-Display-Medium.otf */; };
+		5BC156FA2191D6E7001B746A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC156F92191D6E7001B746A /* ViewController.swift */; };
+		5BC156FC2191ED51001B746A /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC156FB2191ED51001B746A /* HeaderCell.swift */; };
+		5BC156FE2191FBA5001B746A /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC156FD2191FBA5001B746A /* Cell.swift */; };
+		5BC1570221921730001B746A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC1570121921730001B746A /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		211856D0CB31676776F1EAD9 /* Pods-Бомонка.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Бомонка.release.xcconfig"; path = "Pods/Target Support Files/Pods-Бомонка/Pods-Бомонка.release.xcconfig"; sourceTree = "<group>"; };
 		5B375937218F3E5000301421 /* Бомонка.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Бомонка.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B37593A218F3E5000301421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B37593C218F3E5000301421 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B37593F218F3E5000301421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B375941218F3E5000301421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B375944218F3E5000301421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B375946218F3E5000301421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3D57EF219C635100F74C06 /* MainSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSettings.swift; sourceTree = "<group>"; };
+		5B76DA2C2196D560000D71C9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5B90A1D92196B65A004C51F4 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		5B90A1DB2196B671004C51F4 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		5B90A1DD2196B67E004C51F4 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		5BC156F92191D6E7001B746A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BC156FB2191ED51001B746A /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		5BC156FD2191FBA5001B746A /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		5BC156FF219216D8001B746A /* Pods_Бомонка.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = "Pods_Бомонка.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC1570121921730001B746A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		70097BA56977C2E43FBFEC56 /* Pods-Бомонка.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Бомонка.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Бомонка/Pods-Бомонка.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A2E391A3D80AB10E9188E5 /* Pods________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1CE859219D9A3F00A317E3 /* Pods_Бомонка.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5250983F50DD73A12D334769 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70097BA56977C2E43FBFEC56 /* Pods-Бомонка.debug.xcconfig */,
+				211856D0CB31676776F1EAD9 /* Pods-Бомонка.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B37592E218F3E5000301421 = {
 			isa = PBXGroup;
 			children = (
 				5B375939218F3E5000301421 /* Бомонка */,
 				5B375938218F3E5000301421 /* Products */,
+				5250983F50DD73A12D334769 /* Pods */,
+				8EBAED5B6449CEB7B5BBA05B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,39 @@
 		5B375939218F3E5000301421 /* Бомонка */ = {
 			isa = PBXGroup;
 			children = (
+				5B90A1D82196B648004C51F4 /* Шрифты */,
+				5BC1570121921730001B746A /* Model.swift */,
 				5B37593A218F3E5000301421 /* AppDelegate.swift */,
-				5B37593C218F3E5000301421 /* ViewController.swift */,
+				5BC156F92191D6E7001B746A /* ViewController.swift */,
+				5B76DA2C2196D560000D71C9 /* SettingsViewController.swift */,
+				5BC156FB2191ED51001B746A /* HeaderCell.swift */,
+				5BC156FD2191FBA5001B746A /* Cell.swift */,
+				5B3D57EF219C635100F74C06 /* MainSettings.swift */,
 				5B37593E218F3E5000301421 /* Main.storyboard */,
 				5B375941218F3E5000301421 /* Assets.xcassets */,
 				5B375943218F3E5000301421 /* LaunchScreen.storyboard */,
 				5B375946218F3E5000301421 /* Info.plist */,
 			);
 			path = "Бомонка";
+			sourceTree = "<group>";
+		};
+		5B90A1D82196B648004C51F4 /* Шрифты */ = {
+			isa = PBXGroup;
+			children = (
+				5B90A1D92196B65A004C51F4 /* SF-Pro-Display-Bold.otf */,
+				5B90A1DB2196B671004C51F4 /* SF-Pro-Display-Light.otf */,
+				5B90A1DD2196B67E004C51F4 /* SF-Pro-Display-Medium.otf */,
+			);
+			path = "Шрифты";
+			sourceTree = "<group>";
+		};
+		8EBAED5B6449CEB7B5BBA05B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC156FF219216D8001B746A /* Pods_Бомонка.framework */,
+				C0A2E391A3D80AB10E9188E5 /* Pods________.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B375949218F3E5000301421 /* Build configuration list for PBXNativeTarget "Бомонка" */;
 			buildPhases = (
+				E570522F9C07C2348EECD56D /* [CP] Check Pods Manifest.lock */,
 				5B375933218F3E5000301421 /* Sources */,
 				5B375934218F3E5000301421 /* Frameworks */,
 				5B375935218F3E5000301421 /* Resources */,
+				F96546755515DA7C445A9540 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +182,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B90A1DE2196B67E004C51F4 /* SF-Pro-Display-Medium.otf in Resources */,
 				5B375945218F3E5000301421 /* LaunchScreen.storyboard in Resources */,
+				5B90A1DC2196B671004C51F4 /* SF-Pro-Display-Light.otf in Resources */,
 				5B375942218F3E5000301421 /* Assets.xcassets in Resources */,
+				5B90A1DA2196B65A004C51F4 /* SF-Pro-Display-Bold.otf in Resources */,
 				5B375940218F3E5000301421 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E570522F9C07C2348EECD56D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Бомонка-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96546755515DA7C445A9540 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Бомонка/Pods-Бомонка-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RAMReel/RAMReel.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+				"${BUILT_PRODUCTS_DIR}/Timepiece/Timepiece.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMReel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Timepiece.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Бомонка/Pods-Бомонка-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B375933218F3E5000301421 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B37593D218F3E5000301421 /* ViewController.swift in Sources */,
+				5BC1570221921730001B746A /* Model.swift in Sources */,
+				5B3D57F0219C635100F74C06 /* MainSettings.swift in Sources */,
+				5BC156FA2191D6E7001B746A /* ViewController.swift in Sources */,
+				5BC156FE2191FBA5001B746A /* Cell.swift in Sources */,
+				5BC156FC2191ED51001B746A /* HeaderCell.swift in Sources */,
 				5B37593B218F3E5000301421 /* AppDelegate.swift in Sources */,
+				5B76DA2D2196D560000D71C9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,37 +399,45 @@
 		};
 		5B37594A218F3E5000301421 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70097BA56977C2E43FBFEC56 /* Pods-Бомонка.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 89WB9E7UEU;
 				INFOPLIST_FILE = "Бомонка/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "a.s.bitsoev.-------";
+				PRODUCT_BUNDLE_IDENTIFIER = a.s.bitsoev.Bomonka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Bomoka;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5B37594B218F3E5000301421 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211856D0CB31676776F1EAD9 /* Pods-Бомонка.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 89WB9E7UEU;
 				INFOPLIST_FILE = "Бомонка/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "a.s.bitsoev.-------";
+				PRODUCT_BUNDLE_IDENTIFIER = a.s.bitsoev.Bomonka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Bomoka;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
