@@ -402,8 +402,8 @@
 			baseConfigurationReference = 70097BA56977C2E43FBFEC56 /* Pods-Бомонка.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89WB9E7UEU;
 				INFOPLIST_FILE = "Бомонка/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -413,7 +413,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = a.s.bitsoev.Bomonka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Bomoka;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -424,8 +424,8 @@
 			baseConfigurationReference = 211856D0CB31676776F1EAD9 /* Pods-Бомонка.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89WB9E7UEU;
 				INFOPLIST_FILE = "Бомонка/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -435,7 +435,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = a.s.bitsoev.Bomonka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Bomoka;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -1,0 +1,24 @@
+PODS:
+  - RAMReel (4.0.0)
+  - SwiftSoup (1.7.4)
+  - Timepiece (1.3.1)
+
+DEPENDENCIES:
+  - RAMReel
+  - SwiftSoup
+  - Timepiece
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RAMReel
+    - SwiftSoup
+    - Timepiece
+
+SPEC CHECKSUMS:
+  RAMReel: 815addc9594886e6816b891a1559058f05ff9580
+  SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
+  Timepiece: c0760ec0e545697d86b80424dcd2b4d5ef66cf51
+
+PODFILE CHECKSUM: 82d998cdb7cffe1e6cae8ac6ad1093accb67a913
+
+COCOAPODS: 1.5.3

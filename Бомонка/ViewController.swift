@@ -16,7 +16,7 @@ var weekNum = true
 var myURLString = "https://students.bmstu.ru/schedule/40506066-c780-11e6-9e01-005056960017"
 var finalArray: [[[Subject]]] = []
 
-let dateOfFirstDayOfSemestr = Date(era: 1, year: 2019, month: 2, day: 4, hour: 0, minute: 0, second: 0, nanosecond: 0, on: Calendar(identifier: Calendar.Identifier.gregorian))
+let dateOfFirstDayOfSemestr = Date(era: 1, year: 2019, month: 9, day: 2, hour: 0, minute: 0, second: 0, nanosecond: 0, on: Calendar(identifier: Calendar.Identifier.gregorian))
 
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
