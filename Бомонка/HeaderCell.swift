@@ -11,6 +11,15 @@ import UIKit
 class HeaderCell: UITableViewCell {
 
     @IBOutlet var labWeekDay: UILabel!
+    
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        labWeekDay.textAlignment = .left
+    }
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

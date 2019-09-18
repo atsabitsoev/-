@@ -31,10 +31,10 @@ class MainSettings: UIViewController {
         
         
         
-        view1.layer.cornerRadius = 8
-        view2.layer.cornerRadius = 8
-        view3.layer.cornerRadius = 8
-        view4.layer.cornerRadius = 8
+        view1.layer.cornerRadius = 16
+        view2.layer.cornerRadius = 16
+        view3.layer.cornerRadius = 16
+        view4.layer.cornerRadius = 16
         labCurrentWeek.text = "Сейчас \(currentWeek) неделя"
 
     }

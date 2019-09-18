@@ -175,7 +175,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerCell = tableView.dequeueReusableCell(withIdentifier: "header") as! HeaderCell
-        headerCell.backgroundColor = UIColor(white: 0.3, alpha: 0.3)
+        headerCell.backgroundColor = UIColor(white: 0.1, alpha: 1)
         
         switch section {
         case 0:
