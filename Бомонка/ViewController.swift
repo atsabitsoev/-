@@ -323,13 +323,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let myHTMLString = String(data: myData!, encoding: String.Encoding.utf8)
             
             
-            
-            
-            
-            
-            
-            
-            
             do {
                 
                 let doc = try SwiftSoup.parse(myHTMLString!)
@@ -431,12 +424,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                             
                             
                         }
-                        
-                        
-                        
-                        
-                        
-                        
                         
                     } catch {
                         

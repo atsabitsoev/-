@@ -43,7 +43,15 @@ class Subject : NSObject, NSCoding {
     
     
     
-    init (name : String, teacher : String, time : Int, place : String, type : String, week1 : Bool, week2 : Bool, weekDay : Int) {
+    init (name : String,
+          teacher : String,
+          time : Int,
+          place : String,
+          type : String,
+          week1 : Bool,
+          week2 : Bool,
+          weekDay : Int) {
+        
         self.name = name
         self.teacher = teacher
         self.time = time
@@ -53,6 +61,7 @@ class Subject : NSObject, NSCoding {
         self.week2 = week2
         self.weekDay = weekDay
     }
+    
     var name : String
     var teacher : String
     var time : Int
